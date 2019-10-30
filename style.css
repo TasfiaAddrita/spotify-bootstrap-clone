@@ -1,3 +1,31 @@
+body {
+    background-image: linear-gradient(to right bottom, rgb(55, 58, 98), rgb(0, 0, 0)), linear-gradient(transparent, rgb(0, 0, 0) 70%);
+    color: white;
+}
+
 .card {
+    width: 175px;
+    border: none;
+}
+
+/* .sidebar {
+    color: white;
+} */
+
+.logo {
+    width: 150px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.playlist-card {
+    margin-right: 30px;
+    width: 175px;
+}
+
+.artist-card {
+    margin-right: 30px;
     width: 175px;
 }
