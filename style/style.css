@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body {
+    background-image: linear-gradient(to right bottom, rgb(55, 58, 98), rgb(0, 0, 0)), linear-gradient(transparent, rgb(0, 0, 0) 70%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.card {
+    width: 175px;
+    border: none;
+}
+
+.sidebar {
+    width: 230px;
+    padding: 24px;
+    background-color: black;
+}
+
+.logo {
+    width: 131px;
+}
+
+/* .nav-link {
+    padding: 0px;
+} */
+
+.col-lg-10 {
+    padding: 0px 32px;
+}
+
+.main-nav-bar {
+    padding: 20px 0px;
+}
+
+h1 {
+    display: inline-block;
+    /* font-family: 'Montserrat', sans-serif, 700; */
+}
+
+.playlist-card {
+    /* margin-right: 30px; */
+    padding: 0px 8px 0px 0px;
+    width: 158px;
+}
+
+.artist-card {
+    /* margin-right: 30px; */
+    padding: 0px 8px;
+    width: 158px;
+}
+
+.header {
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 50px;
+    /* background-color: white; */
+    
+}

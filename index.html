@@ -8,7 +8,7 @@
     <title>Spotify - Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
@@ -17,15 +17,14 @@
     <div class="container-fluid p-0 m-0">
         <div class="row">
             <!-- SIDEBAR -->
-            <nav class="col-lg-2 d-none d-md-block sidebar">
-                <div class="sidebar-sticky bg-dark">
+            <nav class="col-lg-2 d-none d-md-block sidebar sidebar-sticky">
+                <div class="sidebar-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <!-- <a class="nav-link">LOGO</a> -->
-                            <a href="/" class="nav-link"><img class="logo" src="spotify_logo.png" alt=""></a>
+                            <a href="/" class="nav-link"><img class="logo" src="img/spotify_logo.png" alt=""></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Home</a>
+                            <a class="nav-link"><img class="icon" src="img/home_icon.png" alt="">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">Search</a>
@@ -44,7 +43,7 @@
             <div class="col-lg-10 w-100">
                 <!-- HOME NAV BAR -->
                 <div class="row">
-                    <div class="d-flex justify-content-between align-items-center mx-auto">
+                    <div class="main-nav-bar d-flex justify-content-between align-items-center mx-auto">
                         <nav class="nav">
                             <li class="nav-item">
                                 <a class="nav-link">FEATURED</a>
@@ -71,17 +70,19 @@
                 <!-- RECENTLY PLAYED ROW -->
                 <div class="row">
                     <div class="col">
-                        <!-- RECENTLY PLAYED TITLE -->
-                        <h1>Recently played</h1>
-                        <!-- SEE ALL BUTTON -->
-                        <button>SEE ALL</button>
+                        <div class="header">
+                            <!-- RECENTLY PLAYED TITLE -->
+                            <h1>Recently played</h1>
+                            <!-- SEE ALL BUTTON -->
+                            <button>SEE ALL</button>
+                        </div>
                         
                         <div class="item-row">
                             <!-- PLAYLIST CARD (square) -->
                             <div class="playlist-card d-inline-block">
                                 <div class="text-center">
                                     <!-- IMG -->
-                                    <img src="square-placeholder.jpg" class="card-img-top" alt="">
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
                                     <!-- TITLE -->
                                     <h5 class="card-title">title</h5>
                                 </div>
@@ -89,7 +90,7 @@
                             <div class="playlist-card d-inline-block">
                                     <div class="text-center">
                                         <!-- IMG -->
-                                        <img src="square-placeholder.jpg" class="card-img-top" alt="">
+                                        <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
                                         <!-- TITLE -->
                                         <h5 class="card-title">title</h5>
                                     </div>
@@ -97,14 +98,14 @@
                             <!-- ARTIST CARD (circle) -->
                             <div class="artist-card d-inline-block">
                                 <div class="text-center">
-                                    <img src="square-placeholder.jpg" class="rounded-circle card-img-top" alt="">
+                                    <img src="img/square-placeholder.jpg" class="rounded-circle card-img-top" alt="">
                                     <!-- TITLE -->
                                     <h5 class="card-title">title</h5>
                                 </div>
                             </div>
                             <div class="artist-card d-inline-block">
                                 <div class="text-center">
-                                    <img src="square-placeholder.jpg" class="rounded-circle card-img-top" alt="">
+                                    <img src="img/square-placeholder.jpg" class="rounded-circle card-img-top" alt="">
                                     <!-- TITLE -->
                                     <h5 class="card-title">title</h5>
                                 </div>
@@ -112,7 +113,15 @@
                             <div class="playlist-card d-inline-block">
                                 <div class="text-center">
                                     <!-- IMG -->
-                                    <img src="square-placeholder.jpg" class="card-img-top" alt="">
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
+                                    <!-- TITLE -->
+                                    <h5 class="card-title">title</h5>
+                                </div>
+                            </div>
+                            <div class="playlist-card d-inline-block">
+                                <div class="text-center">
+                                    <!-- IMG -->
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
                                     <!-- TITLE -->
                                     <h5 class="card-title">title</h5>
                                 </div>
@@ -124,16 +133,19 @@
                 <!-- POPULAR PLAYLISTS ROW -->
                 <div class="row">
                     <div class="col">
-                        <!-- POPULAR PLAYLISTS TITLE -->
-                        <h1>Popular playlists</h1>
-                        <!-- SEE ALL BUTTON -->
-                        <button>SEE ALL</button>
+                        <div class="header">
+                            <!-- POPULAR PLAYLISTS TITLE -->
+                            <h1>Popular playlists</h1>
+                            <!-- SEE ALL BUTTON -->
+                            <button>SEE ALL</button>
+                        </div>
+                        
                         <!-- PLAYLIST CARD (square) -->
                         <div class="item-row">
                             <div class="playlist-card d-inline-block">
                                 <div class="text-center">
                                     <!-- IMG -->
-                                    <img src="square-placeholder.jpg" class="card-img-top" alt="">
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
                                     <!-- TITLE -->
                                     <h5 class="card-title">title</h5>
                                 </div>
@@ -141,7 +153,7 @@
                             <div class="playlist-card d-inline-block">
                                 <div class="text-center">
                                     <!-- IMG -->
-                                    <img src="square-placeholder.jpg" class="card-img-top" alt="">
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
                                     <!-- TITLE -->
                                     <h5 class="card-title">title</h5>
                                 </div>
@@ -149,7 +161,7 @@
                             <div class="playlist-card d-inline-block">
                                 <div class="text-center">
                                     <!-- IMG -->
-                                    <img src="square-placeholder.jpg" class="card-img-top" alt="">
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
                                     <!-- TITLE -->
                                     <h5 class="card-title">title</h5>
                                 </div>
@@ -157,7 +169,7 @@
                             <div class="playlist-card d-inline-block">
                                 <div class="text-center">
                                     <!-- IMG -->
-                                    <img src="square-placeholder.jpg" class="card-img-top" alt="">
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
                                     <!-- TITLE -->
                                     <h5 class="card-title">title</h5>
                                 </div>
@@ -165,7 +177,62 @@
                             <div class="playlist-card d-inline-block">
                                 <div class="text-center">
                                     <!-- IMG -->
-                                    <img src="square-placeholder.jpg" class="card-img-top" alt="">
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
+                                    <!-- TITLE -->
+                                    <h5 class="card-title">title</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SOME PLAYLIST 1 ROW -->
+                <div class="row">
+                    <div class="col">
+                        <div class="header">
+                            <!-- POPULAR PLAYLISTS TITLE -->
+                            <h1>Popular playlists</h1>
+                            <!-- SEE ALL BUTTON -->
+                            <button>SEE ALL</button>
+                        </div>
+                        <!-- PLAYLIST CARD (square) -->
+                        <div class="item-row">
+                            <div class="playlist-card d-inline-block">
+                                <div class="text-center">
+                                    <!-- IMG -->
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
+                                    <!-- TITLE -->
+                                    <h5 class="card-title">title</h5>
+                                </div>
+                            </div>
+                            <div class="playlist-card d-inline-block">
+                                <div class="text-center">
+                                    <!-- IMG -->
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
+                                    <!-- TITLE -->
+                                    <h5 class="card-title">title</h5>
+                                </div>
+                            </div>
+                            <div class="playlist-card d-inline-block">
+                                <div class="text-center">
+                                    <!-- IMG -->
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
+                                    <!-- TITLE -->
+                                    <h5 class="card-title">title</h5>
+                                </div>
+                            </div>
+                            <div class="playlist-card d-inline-block">
+                                <div class="text-center">
+                                    <!-- IMG -->
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
+                                    <!-- TITLE -->
+                                    <h5 class="card-title">title</h5>
+                                </div>
+                            </div>
+                            <div class="playlist-card d-inline-block">
+                                <div class="text-center">
+                                    <!-- IMG -->
+                                    <img src="img/square-placeholder.jpg" class="card-img-top" alt="">
                                     <!-- TITLE -->
                                     <h5 class="card-title">title</h5>
                                 </div>
@@ -175,6 +242,7 @@
                 </div>
 
                 <!-- FOOTER / MUSIC PLAYER, FIXED -->
+                <div class="music-player">
                     <!-- LEFT SIDE, SONG INFO -->
                     <!-- ALBUM COVER -->
                     <!-- SONG TITLE -->
@@ -186,6 +254,7 @@
 
                     <!-- RIGHT SIDE, VOLUME CONTROL -->
                         <!-- VOLUME SLIDER -->
+                </div>
 
             </div>
         </div>
